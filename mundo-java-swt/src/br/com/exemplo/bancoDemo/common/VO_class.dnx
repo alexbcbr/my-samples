@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.ibm.com/xtools/1.5.0/Notation" xmlns:uml="http://www.eclipse.org/uml2/1.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.0/Umlnotation" xmi:id="_8z17sAIAEdu-JIQliRxmvw" type="Class" name="classdiagram.dnx">
+  <children xmi:id="_-QAXsAIAEdu-JIQliRxmvw" sourceEdges="__2TAEAIAEdu-JIQliRxmvw" targetEdges="__4fYcgIAEdu-JIQliRxmvw">
+    <children xmi:id="_-QGeUAIAEdu-JIQliRxmvw" type="ImageCompartment">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=AgenciaVO[jcu^name=AgenciaVO.java[jpack^name=br.com.exemplo.bancoDemo.common[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=MundoJava]]]]"/>
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_-QGeUQIAEdu-JIQliRxmvw" width="1320" height="1320"/>
+    </children>
+    <children xmi:id="_-QGeUgIAEdu-JIQliRxmvw" type="Stereotype">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=AgenciaVO[jcu^name=AgenciaVO.java[jpack^name=br.com.exemplo.bancoDemo.common[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=MundoJava]]]]"/>
+    </children>
+    <children xmi:id="_-QGeUwIAEdu-JIQliRxmvw" type="Name">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=AgenciaVO[jcu^name=AgenciaVO.java[jpack^name=br.com.exemplo.bancoDemo.common[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=MundoJava]]]]"/>
+    </children>
+    <children xmi:id="_-QGeVAIAEdu-JIQliRxmvw" type="AttributeCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_-QGeVQIAEdu-JIQliRxmvw"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=AgenciaVO[jcu^name=AgenciaVO.java[jpack^name=br.com.exemplo.bancoDemo.common[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=MundoJava]]]]"/>
+    </children>
+    <children xmi:id="_-QGeVgIAEdu-JIQliRxmvw" type="OperationCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_-QGeVwIAEdu-JIQliRxmvw"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=AgenciaVO[jcu^name=AgenciaVO.java[jpack^name=br.com.exemplo.bancoDemo.common[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=MundoJava]]]]"/>
+    </children>
+    <children xmi:id="_-QGeWAIAEdu-JIQliRxmvw" visible="false" type="SignalCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_-QGeWQIAEdu-JIQliRxmvw"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=AgenciaVO[jcu^name=AgenciaVO.java[jpack^name=br.com.exemplo.bancoDemo.common[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=MundoJava]]]]"/>
+    </children>
+    <children xmi:id="_-RovYAIAEdu-JIQliRxmvw" visible="false" type="StructureCompartment">
+      <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_-RovYQIAEdu-JIQliRxmvw"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=AgenciaVO[jcu^name=AgenciaVO.java[jpack^name=br.com.exemplo.bancoDemo.common[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=MundoJava]]]]"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_-QAXsQIAEdu-JIQliRxmvw" showStereotype="Label"/>
+    <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=AgenciaVO[jcu^name=AgenciaVO.java[jpack^name=br.com.exemplo.bancoDemo.common[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=MundoJava]]]]"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-QAXsgIAEdu-JIQliRxmvw" x="636" y="1272"/>
+  </children>
+  <children xmi:id="__0MHQAIAEdu-JIQliRxmvw" sourceEdges="__4fYcgIAEdu-JIQliRxmvw" targetEdges="__2TAEAIAEdu-JIQliRxmvw">
+    <children xmi:id="__0MHQwIAEdu-JIQliRxmvw" type="ImageCompartment">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=OperacaoVO[jcu^name=OperacaoVO.java[jpack^name=br.com.exemplo.bancoDemo.common[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=MundoJava]]]]"/>
+      <layoutConstraint xmi:type="notation:Size" xmi:id="__0MHRAIAEdu-JIQliRxmvw" width="1320" height="1320"/>
+    </children>
+    <children xmi:id="__0MHRQIAEdu-JIQliRxmvw" type="Stereotype">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=OperacaoVO[jcu^name=OperacaoVO.java[jpack^name=br.com.exemplo.bancoDemo.common[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=MundoJava]]]]"/>
+    </children>
+    <children xmi:id="__0MHRgIAEdu-JIQliRxmvw" type="Name">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=OperacaoVO[jcu^name=OperacaoVO.java[jpack^name=br.com.exemplo.bancoDemo.common[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=MundoJava]]]]"/>
+    </children>
+    <children xmi:id="__0MHRwIAEdu-JIQliRxmvw" type="AttributeCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="__0MHSAIAEdu-JIQliRxmvw"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=OperacaoVO[jcu^name=OperacaoVO.java[jpack^name=br.com.exemplo.bancoDemo.common[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=MundoJava]]]]"/>
+    </children>
+    <children xmi:id="__0MHSQIAEdu-JIQliRxmvw" type="OperationCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="__0MHSgIAEdu-JIQliRxmvw"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=OperacaoVO[jcu^name=OperacaoVO.java[jpack^name=br.com.exemplo.bancoDemo.common[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=MundoJava]]]]"/>
+    </children>
+    <children xmi:id="__0MHSwIAEdu-JIQliRxmvw" visible="false" type="SignalCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="__0MHTAIAEdu-JIQliRxmvw"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=OperacaoVO[jcu^name=OperacaoVO.java[jpack^name=br.com.exemplo.bancoDemo.common[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=MundoJava]]]]"/>
+    </children>
+    <children xmi:id="__0MHTQIAEdu-JIQliRxmvw" visible="false" type="StructureCompartment">
+      <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="__0MHTgIAEdu-JIQliRxmvw"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=OperacaoVO[jcu^name=OperacaoVO.java[jpack^name=br.com.exemplo.bancoDemo.common[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=MundoJava]]]]"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="__0MHQQIAEdu-JIQliRxmvw" showStereotype="Label"/>
+    <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=OperacaoVO[jcu^name=OperacaoVO.java[jpack^name=br.com.exemplo.bancoDemo.common[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=MundoJava]]]]"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="__0MHQgIAEdu-JIQliRxmvw" x="7314" y="318"/>
+  </children>
+  <styles xmi:type="umlnotation:UMLDiagramStyle" xmi:id="_8z17sQIAEdu-JIQliRxmvw"/>
+  <edges xmi:id="__2TAEAIAEdu-JIQliRxmvw" source="_-QAXsAIAEdu-JIQliRxmvw" target="__0MHQAIAEdu-JIQliRxmvw">
+    <children xmi:id="__4ZR0AIAEdu-JIQliRxmvw" type="KindLabel">
+      <children xmi:id="__4ZR0gIAEdu-JIQliRxmvw" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=AgenciaVO[jcu^name=AgenciaVO.java[jpack^name=br.com.exemplo.bancoDemo.common[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=MundoJava]]]]][jsrctype^name=OperacaoVO[jcu^name=OperacaoVO.java[jpack^name=br.com.exemplo.bancoDemo.common[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=MundoJava]]]]]"/>
+      </children>
+      <children xmi:id="__4fYcQIAEdu-JIQliRxmvw" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=AgenciaVO[jcu^name=AgenciaVO.java[jpack^name=br.com.exemplo.bancoDemo.common[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=MundoJava]]]]][jsrctype^name=OperacaoVO[jcu^name=OperacaoVO.java[jpack^name=br.com.exemplo.bancoDemo.common[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=MundoJava]]]]]"/>
+      </children>
+      <children xmi:id="__4fYcAIAEdu-JIQliRxmvw" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=AgenciaVO[jcu^name=AgenciaVO.java[jpack^name=br.com.exemplo.bancoDemo.common[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=MundoJava]]]]][jsrctype^name=OperacaoVO[jcu^name=OperacaoVO.java[jpack^name=br.com.exemplo.bancoDemo.common[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=MundoJava]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=AgenciaVO[jcu^name=AgenciaVO.java[jpack^name=br.com.exemplo.bancoDemo.common[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=MundoJava]]]]][jsrctype^name=OperacaoVO[jcu^name=OperacaoVO.java[jpack^name=br.com.exemplo.bancoDemo.common[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=MundoJava]]]]]"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="__4ZR0QIAEdu-JIQliRxmvw" x="21" y="438"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="__2TAEQIAEdu-JIQliRxmvw" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=AgenciaVO[jcu^name=AgenciaVO.java[jpack^name=br.com.exemplo.bancoDemo.common[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=MundoJava]]]]][jsrctype^name=OperacaoVO[jcu^name=OperacaoVO.java[jpack^name=br.com.exemplo.bancoDemo.common[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=MundoJava]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__2TAEgIAEdu-JIQliRxmvw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:id="__4fYcgIAEdu-JIQliRxmvw" source="__0MHQAIAEdu-JIQliRxmvw" target="_-QAXsAIAEdu-JIQliRxmvw">
+    <children xmi:id="__4fYdQIAEdu-JIQliRxmvw" type="KindLabel">
+      <children xmi:id="__4fYdwIAEdu-JIQliRxmvw" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=OperacaoVO[jcu^name=OperacaoVO.java[jpack^name=br.com.exemplo.bancoDemo.common[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=MundoJava]]]]][jsrctype^name=AgenciaVO[jcu^name=AgenciaVO.java[jpack^name=br.com.exemplo.bancoDemo.common[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=MundoJava]]]]]"/>
+      </children>
+      <children xmi:id="__4fYeQIAEdu-JIQliRxmvw" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=OperacaoVO[jcu^name=OperacaoVO.java[jpack^name=br.com.exemplo.bancoDemo.common[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=MundoJava]]]]][jsrctype^name=AgenciaVO[jcu^name=AgenciaVO.java[jpack^name=br.com.exemplo.bancoDemo.common[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=MundoJava]]]]]"/>
+      </children>
+      <children xmi:id="__4fYeAIAEdu-JIQliRxmvw" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=OperacaoVO[jcu^name=OperacaoVO.java[jpack^name=br.com.exemplo.bancoDemo.common[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=MundoJava]]]]][jsrctype^name=AgenciaVO[jcu^name=AgenciaVO.java[jpack^name=br.com.exemplo.bancoDemo.common[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=MundoJava]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=OperacaoVO[jcu^name=OperacaoVO.java[jpack^name=br.com.exemplo.bancoDemo.common[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=MundoJava]]]]][jsrctype^name=AgenciaVO[jcu^name=AgenciaVO.java[jpack^name=br.com.exemplo.bancoDemo.common[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=MundoJava]]]]]"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="__4fYdgIAEdu-JIQliRxmvw" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="__4fYcwIAEdu-JIQliRxmvw" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=OperacaoVO[jcu^name=OperacaoVO.java[jpack^name=br.com.exemplo.bancoDemo.common[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=MundoJava]]]]][jsrctype^name=AgenciaVO[jcu^name=AgenciaVO.java[jpack^name=br.com.exemplo.bancoDemo.common[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=MundoJava]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__4fYdAIAEdu-JIQliRxmvw" points="[-1931, -1376, 3705, 211]$[-2699, -1905, 2937, -318]$[-3969, -1905, 1667, -318]"/>
+  </edges>
+</notation:Diagram>
