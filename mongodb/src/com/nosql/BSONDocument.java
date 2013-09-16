@@ -10,8 +10,13 @@ import com.mongodb.DBCollection;
 import com.mongodb.DBCursor;
 import com.mongodb.DBObject;
 import com.mongodb.MongoClient;
+import com.mongodb.QueryBuilder;
 
 public class BSONDocument {
+
+	private MongoClient client;
+	private DB courseDB;
+	private DBCollection collection;
 
 	/**
 	 * @param args
@@ -29,68 +34,100 @@ public class BSONDocument {
 		.append("town", "Westfield")
 		.append("zip", "560003"));
 
-		c.insert(_doc);
-		c.find();
-
-
-	}
-
-	public void insert(DBObject doc) {
 		try {
-			MongoClient client = new MongoClient("localhost", 27010);
-			DB courseDB = client.getDB("course");
-			DBCollection collection = courseDB.getCollection("insertTest");
+			c.createConnection();
+			//			c.insert(_doc);
+//			c.findAll();
+			System.out.println("*****************");
+			c.findWithDotNotation();
+			c.closeConnection();
 
-			collection.insert(doc); //* single insert
 
-			System.out.println(doc);
-
-		} catch (UnknownHostException e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
+
+
 	}
 
-	public void find() {
+	public void createConnection() throws UnknownHostException {
+		client = new MongoClient("localhost", 27010);
+		courseDB = client.getDB("course");
+		collection = courseDB.getCollection("insertTest");
+	}
+
+	public void closeConnection() throws UnknownHostException {
+		client.close();
+	}
+	
+	public void insert(DBObject doc) {
+		collection.insert(doc); //* single insert
+		System.out.println(doc);
+	}
+	
+	public void findOne() {
+		DBObject one = collection.findOne(); //* single insert
+		System.out.println("\nFind one:" + one);
+	}
+
+	
+	public void findAll() {
+		DBCursor cursor = collection.find();
 		try {
-			MongoClient client = new MongoClient("localhost", 27010);
-			DB courseDB = client.getDB("course");
-			DBCollection collection = courseDB.getCollection("insertTest");
-
-			DBObject one = collection.findOne(); //* single insert
-			System.out.println("\nFind one:" + one);
-
-			DBCursor cursor = collection.find();
-			try {
-				while (cursor.hasNext()) {
-					DBObject element = cursor.next();
-					System.out.println("\nFind all: " + element);
-				}
-
-			} finally {
-				cursor.close();
+			while (cursor.hasNext()) {
+				DBObject element = cursor.next();
+				System.out.println("\nFind all: " + element);
 			}
-
+			
 			long count = collection.count();
 			System.out.println("\ncount:" + count);
-			
-			DBObject query = new BasicDBObject("username", "alex")
-							.append("age", new BasicDBObject("$gt", 5))
-							.append("$lt", 11);
-			
-			DBCursor oneCriteria = collection.find(query); //* single document with criteria
-			try {
-				while (oneCriteria.hasNext()) {
-					DBObject element = oneCriteria.next();
-					System.out.println("\nFind with criteria: " + element);
-				}
 
-			} finally {
-				cursor.close();
+
+		} finally {
+			cursor.close();
+		}
+	}
+
+	public void findWithArgument() {
+
+		DBObject query = new BasicDBObject("username", "alex")
+		.append("age", new BasicDBObject("$gt", 5))
+		.append("age", new BasicDBObject("$lt", 11));
+
+		DBCursor oneCriteria = collection.find(query,
+											   new BasicDBObject("birthdate", false)
+											  ); //* single document with criteria
+		
+		try {
+			while (oneCriteria.hasNext()) {
+				DBObject element = oneCriteria.next();
+				System.out.println("\nFind with criteria: " + element);
 			}
 
-		} catch (UnknownHostException e) {
-			e.printStackTrace();
+		} finally {
+			oneCriteria.close();
 		}
+
+	}
+
+	public void findWithDotNotation() {
+		
+		QueryBuilder builder = QueryBuilder.start("address.zip").greaterThan("560001");
+		
+		DBCursor oneCriteria = collection.find(builder.get(),
+											   new BasicDBObject("address.street", true).
+											   append("_id",  false));
+		
+		try {
+			while (oneCriteria.hasNext()) {
+				DBObject element = oneCriteria.next();
+				System.out.println("\nFind with criteria: " + element);
+			}
+
+		} finally {
+			oneCriteria.close();
+		}
+
 	}
 
 }
