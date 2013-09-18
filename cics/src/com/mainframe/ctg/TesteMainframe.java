@@ -6,6 +6,11 @@ import java.io.InputStreamReader;
 import com.ibm.ctg.client.ECIRequest;
 import com.ibm.ctg.client.JavaGateway;
 
+/**
+ * Exemplos de implementação acessando uma transação CICS utilizando o 
+ * CICS Transaction Gateway (CTG 8.1) no z/OS
+ * 
+ */
 public class TesteMainframe {
 
 	// Declaracao de objetos padrao que serao utilizados na integracao.
