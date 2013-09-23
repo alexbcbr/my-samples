@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<html> 
+    <head> 
+    <title>Formulario</title> 
+   <link href="jquery.mobile-1.3.1.min.css" rel="stylesheet" type="text/css" /> 
+   <script src="jquery-1.9.1.min.js"></script> 
+   <script src="jquery.mobile-1.3.1.min.js"></script> 
+   	
+	<meta charset="UTF-8">
+</head> 
+<body>
+
+<div data-role="page">
+
+    <div data-role="header" data-theme="a"> 
+        <h1>Cadastro</h1> 
+    </div>
+
+    <div data-role="content"> 
+	
+	<form>
+	    <label for="textinput-s">Nome:</label>
+	    <input type="text" name="textinput-s" id="textinput-s" placeholder="Padrão" value="" data-clear-btn="true">
+	    
+	    <label for="select-native-s">Idade:</label>
+	    <select name="select-native-s" id="select-native-s">
+	        <option value="small">< 18</option>
+	        <option value="medium">18</option>
+	        <option value="large">> 18</option>
+	    </select>
+	    <label for="slider-s">Prazo de Garantia:</label>
+	    <input type="range" name="slider-s" id="slider-s" value="10" min="0" max="50" data-highlight="true">
+	</form>		
+		
+    </div>
+	
+</div>
+
+</body> 
+</html>
