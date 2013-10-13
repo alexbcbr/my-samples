@@ -1,6 +1,3 @@
-/*
- * 
- */
 package com.email.gmail;
 
 import java.util.Properties;
