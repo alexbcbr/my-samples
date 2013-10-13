@@ -7,6 +7,7 @@ public class ServicoServerImpl implements ServicoServer {
 
 	@Override
 	public String produto() {
+		System.out.println("Invoquei o WebServices");
 		return "Calca Jeans";
 	}
 
