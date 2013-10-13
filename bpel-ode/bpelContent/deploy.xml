@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<deploy xmlns="http://www.apache.org/ode/schemas/dd/2007/03" xmlns:assign="http://assign" xmlns:assignwithexpression="http://assignwithexpression" xmlns:condition="http://condition">
+<deploy xmlns="http://www.apache.org/ode/schemas/dd/2007/03" xmlns:assign="http://assign" xmlns:assignwithexpression="http://assignwithexpression" xmlns:condition="http://condition" xmlns:invoke="http://invoke" xmlns:rpc.soap.com="http://rpc.soap.com/">
   <process name="assignwithexpression:AssignWithExpression">
     <active>true</active>
     <retired>false</retired>
@@ -17,11 +17,20 @@
     </provide>
   </process>
   <process name="condition:Condition">
-    <active>true</active>
+    <active>false</active>
     <retired>false</retired>
     <process-events generate="all"/>
     <provide partnerLink="client">
-      <service name="condition:ConditionService" port="ConditionPort"/>
+      <service/>
     </provide>
+  </process>
+  <process name="invoke:Invoke">
+    <process-events generate="all"/>
+    <provide partnerLink="client">
+      <service name="invoke:InvokeService" port="InvokePort"/>
+    </provide>
+    <invoke partnerLink="ServicoPartnerLink">
+      <service name="rpc.soap.com:ServicoServerImplService" port="ServicoServerImplPort"/>
+    </invoke>
   </process>
 </deploy>

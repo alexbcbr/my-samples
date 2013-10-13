@@ -59,6 +59,21 @@
             <bpel:copy>
                 <bpel:from expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xpath1.0">
                     
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
                     <![CDATA[concat("Hello, ", $input.payload/input)]]>
                 </bpel:from>
                 <bpel:to variable="output" part="payload"></bpel:to>
