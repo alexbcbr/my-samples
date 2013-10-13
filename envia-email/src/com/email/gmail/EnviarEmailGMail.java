@@ -1,3 +1,6 @@
+/*
+ * 
+ */
 package com.email.gmail;
 
 import java.util.Properties;
@@ -8,6 +11,10 @@ import javax.mail.Transport;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 
+/*
+ * Enviar email utilizando o servico do GMail
+ * 
+ */
 public class EnviarEmailGMail {
 
 	private String mailSMTPServer;
